@@ -1,0 +1,25 @@
+# .NET Core / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+*.sln.docstates
+*.cache
+*.vs/
+.vscode/
+appsettings.*.json
+*.pfx
+*.snk
+
+# EF Core
+Migrations/*.Designer.cs
+Migrations/*.ModelSnapshot.cs
+
+# Logs & Temp
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,35 @@
+.search-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ffc107;
+  border: none;
+  cursor: pointer;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.results-table th, .results-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

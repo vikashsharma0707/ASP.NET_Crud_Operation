@@ -1,0 +1,135 @@
+/* Container */
+.list-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Heading */
+.list-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Table */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table thead {
+  background: #2c3e50;
+}
+
+.employee-table th {
+  padding: 12px;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.employee-table td {
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Hover */
+.employee-table tbody tr:hover {
+  background: #f7f9fc;
+}
+
+/* Avatar */
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* Actions */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Common button */
+.btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* View */
+.view-btn {
+  background: #3498db;
+  color: #fff;
+}
+
+.view-btn:hover {
+  background: #2980b9;
+}
+
+/* Edit */
+.edit-btn {
+  background: #f39c12;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: #d68910;
+}
+
+/* Delete */
+.delete-btn {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+/* Loading & empty */
+.loading,
+.empty {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .employee-table thead {
+    display: none;
+  }
+
+  .employee-table tr {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .employee-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+}
